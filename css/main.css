@@ -1,18 +1,11 @@
 /* 
-	Project Portfolio
+	Marianna PSD Template
 	Author: Magdalena Fas
 	Version: 0.0.1
 */
 /* BASE - Base styles, variables, mixins, etc. */
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display:900|Josefin+Sans:400);
 @import url("https://fonts.googleapis.com/css?family=Chivo:900");
-@font-face {
-  font-weight: normal;
-  font-style: normal;
-  font-family: 'codropsicons';
-  src: url("../fonts/codropsicons/codropsicons.eot");
-  src: url("../fonts/codropsicons/codropsicons.eot?#iefix") format("embedded-opentype"), url("../fonts/codropsicons/codropsicons.woff") format("woff"), url("../fonts/codropsicons/codropsicons.ttf") format("truetype"), url("../fonts/codropsicons/codropsicons.svg#codropsicons") format("svg"); }
-
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }

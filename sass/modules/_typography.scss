@@ -1,0 +1,23 @@
+
+
+/* Color schemes */
+
+.theme1,
+.theme1 .intro {
+	background: $bg_container1;
+}
+
+.theme1 figure {
+	border-color: $bg_container1;
+	background: $figure_bg;
+}
+
+.theme2,
+.theme2 .intro {
+	background: $bg_container2;
+}
+
+.theme2 .item {
+	border-color: $bg_container2;
+	background: #74834f;
+}

@@ -1,0 +1,159 @@
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:900|Josefin+Sans:400);
+@import url('https://fonts.googleapis.com/css?family=Chivo:900');
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after {display: table;  content: ''; }
+.clearfix:after { clear: both; }
+
+body {
+	background: #2a2e39;
+	color: #dbdbdb;
+	font-weight: 400;
+	font-size: 1em;
+	font-family: "Josefin Sans", "Helvetica Neue", Helvetica, sans-serif;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus {
+	outline: none;
+	color: #fff !important;
+}
+
+
+.hidden {
+	position: absolute;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+}
+
+/* container styles */
+
+.container,
+.container:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	opacity: 0; 
+ 	pointer-events: none;
+}
+
+.container {
+	z-index: 1;
+	overflow: hidden;
+	background: $bg_main;
+	transform-origin: 50% 120%;
+}
+
+.container:after {
+	content:'';
+	z-index: 1000;
+	background: #000;
+	transition: 0.9s;
+	transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+.container-animOutRight:after,
+.container-animOutLeft:after {
+	opacity: 1;
+}
+
+.container-current {
+	position: absolute;
+	z-index: 100;
+	height: auto; 
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.container-animInRight,
+.container-animInLeft {
+	z-index: 101;
+	opacity: 1;
+}
+
+.container-animInRight,
+.container-animInLeft,
+.container-animOutRight,
+.container-animOutLeft {
+	animation-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+	animation-duration: 0.9s;
+	animation-fill-mode: forwards;
+}
+
+.container-animInRight {
+	animation-name: animInRight;
+}
+
+.container-animInLeft {
+	animation-name: animInLeft;
+}
+
+.container-animOutRight {
+	animation-name: animOutRight;
+}
+
+.container-animOutLeft {
+	animation-name: animOutLeft;
+}
+
+@keyframes animOutLeft {
+	from {} /* fix Chrome easing breaks */
+	to {
+		-webkit-transform: rotate3d(0,0,1,-20deg) translate3d(-100%,0,0);
+		transform: rotate3d(0,0,1,-20deg) translate3d(-100%,0,0);
+		opacity: 0;
+	}
+}
+
+@keyframes animInRight {
+	from {
+		-webkit-transform: rotate3d(0,0,1,20deg) translate3d(100%,0,0);
+		transform: rotate3d(0,0,1,20deg) translate3d(100%,0,0);
+		opacity: 0;
+	}
+	to {
+		-webkit-transform: rotate3d(0,0,1,0deg) translate3d(0,0,0);
+		transform: rotate3d(0,0,1,0deg) translate3d(0,0,0);
+	}
+}
+
+@keyframes animOutRight {
+	from {} /* fix Chrome easing breaks */
+	to {
+		-webkit-transform: rotate3d(0,0,1,20deg) translate3d(100%,0,0);
+		transform: rotate3d(0,0,1,20deg) translate3d(100%,0,0);
+		opacity: 0;
+	}
+}
+
+@keyframes animInLeft {
+	from {
+		-webkit-transform: rotate3d(0,0,1,-20deg) translate3d(-100%,0,0);
+		transform: rotate3d(0,0,1,-20deg) translate3d(-100%,0,0);
+		opacity: 0;
+	}
+	to {
+		-webkit-transform: rotate3d(0,0,1,0deg) translate3d(0,0,0);
+		transform: rotate3d(0,0,1,0deg) translate3d(0,0,0);
+	}
+}

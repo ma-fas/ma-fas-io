@@ -827,7 +827,7 @@ figure {
                 animation-delay: 11s; }
 
 #container-1 .intro-image {
-  background: #092756;
+  background: #353652;
   background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, 0.4) 10%, rgba(138, 114, 76, 0) 40%), -webkit-linear-gradient(top, rgba(57, 173, 219, 0.25) 0%, rgba(42, 60, 87, 0.4) 100%), -webkit-linear-gradient(-45deg, #670d10 0%, #092756 100%);
   /* background: -o-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), -o-linear-gradient(top,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), -o-linear-gradient(-45deg,  #670d10 0%,#092756 100%);
 	background: -ms-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), -ms-linear-gradient(top,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), -ms-linear-gradient(-45deg,  #670d10 0%,#092756 100%);  */
@@ -837,7 +837,7 @@ figure {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3E1D6D', endColorstr='#092756',GradientType=1 ); }
 
 #container-2 .intro-image {
-  background: #467A39;
+  background: #557d58;
   background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, 0.3) 10%, rgba(138, 114, 76, 0.2) 60%), -webkit-linear-gradient(to bottom, rgba(57, 173, 219, 0.25) 5%, rgba(70, 122, 57, 0.4) 100%), -webkit-linear-gradient(135deg, #467A39 0%, #F9F5BA 100%);
   /*background: -o-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.3) 10%,rgba(138,114,76,0.2) 60%), -o-linear-gradient(to bottom,  rgba(57,173,219,.25) 5%,rgba(70, 122, 57,.4) 100%), -o-linear-gradient(135deg,  #467A39 0%,#F9F5BA 100%);
 	background: -ms-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.3) 10%,rgba(138,114,76,0.2) 60%), -ms-linear-gradient(to bottom,  rgba(57,173,219,.25) 5%,rgba(70, 122, 57,.4) 100%), -ms-linear-gradient(135deg,  #467A39 0%,#F9F5BA 100%); */
@@ -847,7 +847,7 @@ figure {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#467A39', endColorstr='#F9F5BA',GradientType=1 ); }
 
 #container-3 .intro-image {
-  background: #FFA331;
+  background: #B45B44;
   background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(204, 48, 39, 0.6) 10%, rgba(138, 114, 76, 0.2) 60%), -webkit-linear-gradient(to bottom, rgba(57, 173, 219, 0.25) 5%, rgba(255, 163, 49, 0.4) 100%), -webkit-linear-gradient(135deg, #CC3027 0%, #FFA331 100%);
   /*background: -o-radial-gradient(0% 100%, ellipse cover, rgba(204,48,39,.6) 10%,rgba(138,114,76,0.2) 60%), -o-linear-gradient(to bottom,  rgba(57,173,219,.25) 5%,rgba(255,163,49,.4) 100%), -o-linear-gradient(135deg,  #CC3027 0%,#FFA331 100%);
 	background: -ms-radial-gradient(0% 100%, ellipse cover, rgba(204,48,39,.6) 10%,rgba(138,114,76,0.2) 60%), -ms-linear-gradient(to bottom,  rgba(57,173,219,.25) 5%,rgba(255,163,49,.4) 100%), -ms-linear-gradient(135deg,  #CC3027 0%,#FFA331 100%); */

@@ -1,1 +1,1 @@
-<a href="https://ma-fas.github.io/FashionSmartTheme/">Live demo</a>
+<a href="https://ma-fas.github.io/">Live demo</a>
